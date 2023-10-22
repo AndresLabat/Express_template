@@ -1,0 +1,103 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "users_endpoints",
+    "dateExported": "2023-10-22T18:38:45.692Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4cdd1e4c-82f0-4a6f-879f-8ece7d27974d",
+            "colId": "9fa5154a-7c3b-430c-b117-c56165c4e67d",
+            "containerId": "",
+            "name": "Get all users",
+            "url": "localhost:4000/users",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-10-21T14:25:10.279Z",
+            "modified": "2023-10-22T18:34:15.005Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e6593094-244c-4143-8b77-c6e491336af3",
+            "colId": "9fa5154a-7c3b-430c-b117-c56165c4e67d",
+            "containerId": "",
+            "name": "Get one user by name",
+            "url": "localhost:4000/user/Andres",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-10-22T09:56:40.870Z",
+            "modified": "2023-10-22T18:35:03.356Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c201303e-b731-466c-98af-96fb23d011a1",
+            "colId": "9fa5154a-7c3b-430c-b117-c56165c4e67d",
+            "containerId": "",
+            "name": "Get user by id",
+            "url": "localhost:4000/users/2",
+            "method": "GET",
+            "sortNum": 22500,
+            "created": "2023-10-22T18:36:29.579Z",
+            "modified": "2023-10-22T18:36:29.579Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "64804aab-8862-4216-84af-fbe1559d1ae4",
+            "colId": "9fa5154a-7c3b-430c-b117-c56165c4e67d",
+            "containerId": "",
+            "name": "Update user",
+            "url": "localhost:4000/users/6",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-10-21T14:27:07.825Z",
+            "modified": "2023-10-21T14:27:07.825Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"NewUser\",\n    \"age\": 100\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "12fcfe91-626c-45a0-b5ff-d9630a60eb06",
+            "colId": "9fa5154a-7c3b-430c-b117-c56165c4e67d",
+            "containerId": "",
+            "name": "Create new user",
+            "url": "localhost:4000/users",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2023-10-22T18:37:57.785Z",
+            "modified": "2023-10-22T18:37:57.785Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": 1,\n    \"name\": \"Bienve ausente\",\n    \"age\": 27\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ce537108-fbfc-46d5-a601-d89797458e76",
+            "colId": "9fa5154a-7c3b-430c-b117-c56165c4e67d",
+            "containerId": "",
+            "name": "Delete user",
+            "url": "localhost:4000/users/4",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-10-21T14:27:28.934Z",
+            "modified": "2023-10-22T18:38:28.870Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
